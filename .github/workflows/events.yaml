@@ -11,3 +11,14 @@ jobs:
           echo $GITHUB_SHA
           echo $GITHUB_REF
       - uses: actions/checkout@v3
+
+      - name: Display Working Directory & List Files
+        run: |
+          pwd
+          ls -a
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE
+      - name: Change Working Dir
+        working-directory: /home/runner
+        run: pwd      
