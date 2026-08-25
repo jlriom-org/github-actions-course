@@ -55,4 +55,10 @@ jobs:
           who-to-greet: Ali
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"        
-        
+
+      - name: Comment on New PRs
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.log.debug("HELLO!");        
