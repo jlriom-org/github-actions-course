@@ -56,9 +56,12 @@ jobs:
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"        
 
-      - name: Comment on New PRs
+      - name: script
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             core.info("HELLO! " +context.repo.owner);
+
+      - name: ENV
+        run: echo "xxx $GITHUB_JOB"        
