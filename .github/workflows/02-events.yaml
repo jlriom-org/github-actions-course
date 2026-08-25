@@ -22,3 +22,8 @@ jobs:
       - name: Change Working Dir
         working-directory: /home/runner
         run: pwd      
+
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api https://api.github.com/repos/octocat/Spoon-Knife/issues        
