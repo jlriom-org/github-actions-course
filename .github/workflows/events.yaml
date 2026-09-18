@@ -1,4 +1,4 @@
-name: Repository Events 2
+name: Repository Events
 on:
   push:
     branches:
