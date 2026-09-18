@@ -19,4 +19,7 @@ https://docs.github.com/en/actions/how-tos/manage-workflow-runs/approve-runs-fro
 https://github.com/actions/github-script
 https://octokit.github.io/rest.js/v19/
 https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#workflow_run
-
+https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#filter-pattern-cheat-sheet
+https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#workflow_dispatch
+https://cli.github.com/manual/gh_workflow_run
+https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28#create-a-workflow-dispatch-event
