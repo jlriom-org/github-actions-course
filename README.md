@@ -23,3 +23,6 @@ https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-synt
 https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#workflow_dispatch
 https://cli.github.com/manual/gh_workflow_run
 https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28#create-a-workflow-dispatch-event
+https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+https://github.com/actions/stale
+https://crontab.guru/
