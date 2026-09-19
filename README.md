@@ -26,3 +26,6 @@ https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28#create-a
 https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
 https://github.com/actions/stale
 https://crontab.guru/
+https://docs.github.com/en/actions/reference/workflows-and-actions/expressions
+https://docs.github.com/en/actions/reference/workflows-and-actions/contexts
+
